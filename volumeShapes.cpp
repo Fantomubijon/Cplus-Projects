@@ -6,16 +6,16 @@ void line() {
     cout <<"\n******************************************************\n";
 }
 
-float Celsius_to_Fahrenheit(float c){
-    float con;
-    con = (c * 9/5) + 32;
-    return con;
+float Solve_for_Cube(float c){
+    float VOLUME;
+    VOLUME = c * c * c;
+    return VOLUME;
 }
 
-float Fahrenheit_to_Celsius(float f){
-    float con;
-    con = (f - 32) * 5/9;
-    return con;
+float Solve_for_Sphere(float s){
+    float VOLUME;
+    VOLUME = (s - 32) * 5/9;
+    return VOLUME;
 }
 
 float Celsius_to_Kelvin(float c){
