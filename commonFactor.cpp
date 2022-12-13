@@ -3,7 +3,7 @@ using namespace std;
 
 void my_recursive_function(int n)
 {
-    if(a == 1)
+    if(a == 0)
         return;
     cout<<n;
     my_recursive_function(n-1);
