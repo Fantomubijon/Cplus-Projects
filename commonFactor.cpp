@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void my_recursive_function(int n)
+void my_recursive_function(int a)
 {
-    if(n == 0)
+    if(a == 0)
         return;
-    cout<<n;
-    my_recursive_function(n-1);
+    cout<<a;
+    my_recursive_function(a-1);
 }
 int main()
 {
